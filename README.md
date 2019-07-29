@@ -5,7 +5,7 @@ This website is for showcasing my past projects and works
 
  
 
-![home](home.png
+![home](home.png)
 
  
 
