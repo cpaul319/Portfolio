@@ -5,11 +5,11 @@ This website is for showcasing my past projects and works
 
  
 
-![home](home.PNG)
+![home](home.png)
 
  
 
-![projects](projects.PNG)
+![projects](projects.png)
 
   
  
