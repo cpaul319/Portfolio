@@ -73,7 +73,7 @@ if($_POST)
     */
 
 
-    $sentMail = @mail($to_Email, $subject, $message_Body, $headers);
+    $sentMail = mail($to_Email, $subject, $message_Body, $headers);
 
     if(!$sentMail)
     {
@@ -85,3 +85,4 @@ if($_POST)
     }
 }
 ?>
+ 
