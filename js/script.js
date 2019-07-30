@@ -453,6 +453,7 @@ jQuery(function ($) {
 
     //Contact Us
     $("#submit_btn").click(function () {
+        console.log("submit button clicked");
 
         //disable submit button on click
         $("#submit_btn").attr("disabled", "disabled");
@@ -493,6 +494,7 @@ jQuery(function ($) {
 
             //Ajax post data to server
             $.post('contact.php', post_data, function (response) {
+                console.log("inside of contact.php");
 
                 //load json data from server and output message
                 if (response.type == 'error') {
