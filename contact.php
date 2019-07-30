@@ -67,13 +67,14 @@ if($_POST)
 
 
     //proceed with PHP email.
-    /*$headers = 'From: '.$user_Email.'' . "\r\n" .
+    $headers = 'From: '.$user_Email.'' . "\r\n" .
     'Reply-To: '.$user_Email.'' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-    */
+    
 
-
-    $sentMail = mail($to_Email, $subject, $message_Body, $headers);
+ 
+    $sentMail = @mail($to_Email, $subject, $message_Body, $headers);
+    
 
     if(!$sentMail)
     {
